@@ -4,58 +4,60 @@
 # License: MIT
 # Expires: 7 days
 #
-# Format: one domain per line (Pi-hole "Domain" adlist format).
+# Format: Adblock Plus style (||domain.com^), one per line.
+# This blocks the domain AND all its subdomains (www., checkout., etc.) -
+# a plain "domain.com" entry only blocks that exact string, not subdomains.
 # Subscribe under Pi-hole -> Group Management -> Adlists, and assign
 # the adlist to its own group so it can be toggled on/off independently
 # of your other blocklists.
 
-adidas.co.uk
-amazon.co.uk
-amazon.com
-argos.co.uk
-asda.com
-asos.com
-asosglobal.com
-boohoo.com
-boohooman.com
-bookshop.org
-boots.com
-castlearts.com
-currys.co.uk
-debenhams.com
-dunelm.com
-ebay.co.uk
-ebay.com
-etsy.com
-fableengland.com
-fluidone.employeebenefitsplatform.com
-hobbycraft.co.uk
-ikea.com
-johnlewis.com
-lights4fun.co.uk
-lush.com
-marksandspencer.app
-marksandspencer.com
-matalan.co.uk
-newlook.com
-next.co.uk
-nike.com
-popsyclothing.co.uk
-primark.com
-schuh.co.uk
-shien.com
-shop.app
-smythstoys.com
-sportsdirect.com
-squiresgardencentres.co.uk
-superdrug.com
-temu.com
-thebodyshop.com
-therange.co.uk
-theworks.co.uk
-tkmaxx.com
-tkmaxxandhomesense.com
-vans.com
-very.co.uk
-wayfair.co.uk
-wilko.com
+||adidas.co.uk^
+||amazon.co.uk^
+||amazon.com^
+||argos.co.uk^
+||asda.com^
+||asos.com^
+||asosglobal.com^
+||boohoo.com^
+||boohooman.com^
+||bookshop.org^
+||boots.com^
+||castlearts.com^
+||currys.co.uk^
+||debenhams.com^
+||dunelm.com^
+||ebay.co.uk^
+||ebay.com^
+||etsy.com^
+||fableengland.com^
+||fluidone.employeebenefitsplatform.com^
+||hobbycraft.co.uk^
+||ikea.com^
+||johnlewis.com^
+||lights4fun.co.uk^
+||lush.com^
+||marksandspencer.app^
+||marksandspencer.com^
+||matalan.co.uk^
+||newlook.com^
+||next.co.uk^
+||nike.com^
+||popsyclothing.co.uk^
+||primark.com^
+||schuh.co.uk^
+||shien.com^
+||shop.app^
+||smythstoys.com^
+||sportsdirect.com^
+||squiresgardencentres.co.uk^
+||superdrug.com^
+||temu.com^
+||thebodyshop.com^
+||therange.co.uk^
+||theworks.co.uk^
+||tkmaxx.com^
+||tkmaxxandhomesense.com^
+||vans.com^
+||very.co.uk^
+||wayfair.co.uk^
+||wilko.com^

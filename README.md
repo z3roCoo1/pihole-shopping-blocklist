@@ -1,6 +1,11 @@
 # pihole-shopping-blocklist
 
-A plain domain list of retail/e-commerce sites, for optional blocking in [Pi-hole](https://pi-hole.net).
+A domain list of retail/e-commerce sites, for optional blocking in [Pi-hole](https://pi-hole.net).
+
+Entries use Adblock Plus wildcard syntax (`||domain.com^`), so each entry blocks the
+domain and all of its subdomains (`www.`, `checkout.`, `account.`, etc.). A plain
+`domain.com` entry only blocks that exact string — most storefronts are served from a
+subdomain like `www.`, so they'd slip straight through without the wildcard.
 
 ## Usage
 
