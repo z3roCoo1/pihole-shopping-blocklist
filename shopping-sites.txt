@@ -12,8 +12,8 @@
 # of your other blocklists.
 
 ||adidas.co.uk^
-||amazon.co.uk^
-||amazon.com^
+#||amazon.co.uk^
+#||amazon.com^
 ||argos.co.uk^
 ||asda.com^
 ||asos.com^
